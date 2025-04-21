@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    text-align: center;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: black;
+    color: white;
+    padding: 1px;
+}
+
+section {
+    text-align: center;
+    font-size: 22px;
+    border-style: groove;
+    border-color: black;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    float: left;
+    background-color: white;
+    width: 60%;
+    border-radius: 3px;
+}
+
+body {
+    background-color: gray;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+    color: red;
+}
+
+h1 {
+    text-shadow: 3px 3px 4px;
+}
+
+footer {
+    margin: 0px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1px;
+    display: block;
+    clear: both;
+}
+
+aside {
+    width: 20%;
+    float: left;
+    border-style: groove;
+    border-color: black;
+    background-color: white;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.gallery {
+    margin: 5px;
+    display: inline-block;
+    border: 4px double hsl(0, 0%, 60%);
+    font-size: 19px;
+    border-radius: 3px;
+}
+
+.gallery:hover {
+    border: 4px double hsl(0, 0%, 20%);
+    border-radius: 6px;
+}
+
+button {
+    border-style: outset;
+    border-color: gray;
+    border-radius: 3px;
+    background-color: black;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+button:hover {
+    border-color: white;
+    border-radius: 3px;
+    background-color: black;
+}
+
+#myBox {
+    background-color: black;
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
+    margin-bottom: 9px;
+    margin-top: 7px;
+    border-style: groove;
+    border-radius: 5px;
+    border-color: black;
+    color: white;
+    text-align: center;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider img {
+    width: 100%;
+    display: none;
+}
+
+img.displaySlide {
+    display: block;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.slider button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.prev {
+    left: 350px;
+}
+
+.next {
+    right: 350px;
+}
+
+.slide {
+    margin-left: 420px;
+}
+
+@keyframes fade {
+    from {
+        opacity: .5
+    }
+
+    to {
+        opacity: 1
+    }
+}

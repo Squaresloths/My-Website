@@ -1,0 +1,82 @@
+.header {
+    text-align: center;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: black;
+    color: white;
+    padding: 1px;
+}
+
+section {
+    text-align: center;
+    font-size: 22px;
+    border-style: groove;
+    border-color: black;
+    background-color: white;
+    width: 60%;
+    border-radius: 3px;
+    margin-left: 400px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+body {
+    background-color: gray;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+    color: red;
+}
+
+h1 {
+    text-shadow: 3px 3px 4px;
+}
+
+footer {
+    margin: 0px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1px;
+    display: block;
+    clear: both;
+}
+
+.blog1 {
+    border-style: outset;
+    border-color: black;
+    border-radius: 3px;
+    margin-right: 180px;
+    margin-left: 180px;
+    margin-bottom: 7px;
+    border-width: 6px;
+}
+
+.blog2 {
+    border-style: outset;
+    border-color: black;
+    border-radius: 3px;
+    margin-right: 180px;
+    margin-left: 180px;
+    margin-bottom: 7px;
+    border-width: 6px;
+}
+
+button {
+    border-style: outset;
+    border-color: gray;
+    border-radius: 3px;
+    background-color: black;
+    margin-bottom: 5px;
+}
+
+button:hover {
+    border-color: white;
+    border-radius: 3px;
+    background-color: black;
+}
